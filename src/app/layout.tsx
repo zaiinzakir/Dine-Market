@@ -1,9 +1,9 @@
 import 'tailwindcss'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Sora } from 'next/font/google'
-import Navbar from '../views/Navbar'
-import Wrapper from '../shared/Wrapper'
+import { Podkova, Sora } from 'next/font/google'
+import Navbar from '../components/views/Navbar'
+import Wrapper from '../components/shared/Wrapper'
 
 const inter = Sora({ subsets: ['latin'] })
 weight : ["400,500,600,700,800,900"]
